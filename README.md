@@ -33,6 +33,15 @@ Scrpts were made using:
 * [Matplotlib](https://github.com/matplotlib/matplotlib)
 * [NetworkX](https://github.com/networkx)
 
+### Content
+
+Model components are in their corresponding scripts:
+```
+problem -> problem.py
+algorithm -> algorithm.py
+population -> population.py
+```
+
 ## References
 
 * Dou, J., Dai, X., & Meng, Z. (2010). Optimisation for multi-part flow-line configuration of reconfigurable manufacturing system using GA. International Journal of Production Research, 48(14), 4071-4100.
