@@ -1,0 +1,10 @@
+*~
+.*~
+*.swp
+.DS_Store
+.Rhistory
+.RData
+.spyderproject
+.spyderworkspace
+__pycache__/
+.ipynb_checkpoints
