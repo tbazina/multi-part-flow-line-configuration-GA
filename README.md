@@ -1,6 +1,6 @@
 # Optimisation for multi-part flow-line configuration of reconfigurable manufacturing system using GA
 
-Optimization model was developed by [(Dou, Dai & Meng, 2010)][#references].
+Optimization model was developed by [(Dou, Dai & Meng, 2010)](#references).
 Afore-mentioned model was implemented in Python.
 
 ## Getting started
