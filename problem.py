@@ -514,7 +514,7 @@ class MPFL_configuration:
             self.fi_r, self.CI, self.Imax, np.hstack(FOA)
         )]
 
-    def get_top_ten_config(self, pops):
+    def get_top_config(self, pops, num_conf):
         # Extracting population and fitness from islands
         # pops = [isl.get_population() for isl in islands]
         pop_x = [p.get_x() for p in pops]
@@ -531,8 +531,8 @@ class MPFL_configuration:
             [True], np.any(np.diff(isl_pop_x[sorted_idx, :], axis=0),
                            axis=1)
         )
-        for i in range(isl_pop_x[sorted_idx[row_mask]][:10, :].shape[0]):
-            x = isl_pop_x[sorted_idx[row_mask]][:10, :][i]
+        for i in range(isl_pop_x[sorted_idx[row_mask]][:num_conf, :].shape[0]):
+            x = isl_pop_x[sorted_idx[row_mask]][:num_conf, :][i]
             x = x.astype(np.int64)
             left_part = [x[l_ind] for l_ind in self.left_ind]
             # print('Left part: {}'.format(left_part))

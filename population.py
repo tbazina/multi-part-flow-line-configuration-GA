@@ -4,7 +4,7 @@ import numpy as np
 def generate_individual(left_size, mid_size, right_size, Nmax, seed=None):
     """
     Generator for random generation of individual decision vectors. Constraints
-    for letf, middle and right parts are satisfied.
+    for left, middle and right parts are satisfied.
 
     :param left_size:
     List of left chromosome part sizes for each part in production.

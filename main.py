@@ -330,12 +330,15 @@ Q_sji_r = pd.DataFrame(
 # Space limitation
 # Configuration length (maksimum number of stages)
 Nmax = 10
+# Staviti Nmax 6 max
 # Configuration width (maksimum number of parallel machines per stage)
 Mmax = 5
+# Staviti Mmax 10 max
 
 # Investment limitation
 # Maximum allowable initial investment of the configuration ($ × 1000)
 Imax = 30000.
+# 10 000 000 EUR
 
 """
 ------------------------------------------------------------------------------
@@ -345,6 +348,7 @@ Imax = 30000.
 """
 # Population size
 pop_size = 40
+# 20
 
 # Random number generation seed
 rnd_seed = None
@@ -357,6 +361,7 @@ pm = 0.5
 
 # Maximum generations
 max_gen = 1000
+# 1000
 
 # Logging level
 log_lvl = 1
