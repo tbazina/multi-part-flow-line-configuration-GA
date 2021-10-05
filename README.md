@@ -47,5 +47,4 @@ population -> population.py
 * Dou, J., Dai, X., & Meng, Z. (2010). Optimisation for multi-part flow-line configuration of reconfigurable manufacturing system using GA. International Journal of Production Research, 48(14), 4071-4100.
 
 ## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
